@@ -17,6 +17,7 @@ body {
   @media (max-width: 1000px) {
     body {
       grid: auto auto / 1fr 650px 1fr;
+
     }
   }
 
@@ -64,6 +65,7 @@ main {
   grid-area: 2/2/3/3;
   display: grid;
   grid: auto / 400px 600px;
+  grid-gap: 30px;
 }
 
 @media (max-width: 650px) {
